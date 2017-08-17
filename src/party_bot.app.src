@@ -1,0 +1,18 @@
+{application, party_bot,
+ [
+  {description, "Slack Party Bot"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  sasl,
+                  jsx,
+                  gun,
+                  lager,
+                  estatsd,
+                  raven
+                 ]},
+  {mod, { party_bot_app, []}},
+  {env, []}
+ ]}.

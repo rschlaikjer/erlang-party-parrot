@@ -1,0 +1,12 @@
+[
+    {raven, [
+        {dsn, ""},
+        {error_logger, false}
+    ]},
+    {estatsd, [
+        {graphite_host, "graphite"}
+    ]},
+    {party_bot, [
+        {slack_token, <<"">>}
+    ]}
+].
